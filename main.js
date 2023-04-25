@@ -41,12 +41,21 @@ $(function(){
     // });
 
     $(".btn-hide").click(function(){
-
+        $("h1").addClass("red");
+        
         // alert($(".class").text());
         //alert($(".class").attr("title"));
-
-        $("#id").append("<strong>hola programadores</strong>");
-        $("#id").after("<strong>crea segundo parrafo</strong>");
+        
+        // $("#id").append("<strong>hola programadores</strong>");
+        // $("#id").after("<strong>crea segundo parrafo</strong>");
+        
+        
+        
+        
+        
     });
+    $(".btn-show").click(function(){
+        $("h1").toggleClass("blue");
 
+    });
 });
